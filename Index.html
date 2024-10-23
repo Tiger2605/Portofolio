@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1 class="fade-in">Welcome to My Portfolio</h1>
+        <nav>
+            <a href="#about">About Me</a> |
+            <a href="#projects">Projects</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate developer with experience in Java and web technologies. I am excited to showcase my projects and explore new challenges. In addition to Java, I am also learning Python and discovering its applications in web development and data analysis.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-item">
+            <h3>Student Management System</h3>
+            <p>A system for managing student records, including registrations, grades, and schedules. Built using modern web technologies, it features a user-friendly interface and integrates with a database for data storage and retrieval.</p>
+        </div>
+        <hr>
+
+        <div class="project-item">
+            <h3>Book Management Application</h3>
+            <p>This project is a Book Management system developed using Python and Django. It features a user-friendly interface, allowing users to categorize books, manage their inventory, and back up data efficiently.</p>
+        </div>
+        <hr>
+
+        <div class="project-item">
+            <h3>Personal Website</h3>
+            <p>Currently working on a personal website to showcase projects and skills. The site will include a portfolio section, blog, and contact form, built using HTML, CSS, and JavaScript with plans for React integration.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form onsubmit="return validateForm()">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
