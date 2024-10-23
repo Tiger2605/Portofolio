@@ -1,23 +1,28 @@
 # My Portfolio
 
-Welcome to my personal portfolio website. This project showcases my skills and projects in web development. The site includes sections for an introduction about me, some of my notable projects, and a contact form.
+Welcome to my personal portfolio website, where I showcase my web development skills and projects. The site includes sections for an introduction, notable projects, and a contact form for inquiries.
 
-## Project Sections
-
-1. **About Me**: Introduction to who I am and what I do, including my journey in programming.
+## Features
+1. **About Me**: Learn about my background in programming and development journey.
 2. **Projects**:
-   - **Student Management System**: A system for managing student records, including grades and schedules.
-   - **Book Management Application**: Developed using Python and Django, allowing book categorization and inventory management.
-   - **Personal Website**: A work-in-progress website that demonstrates my skills in web development.
-3. **Contact Form**: A form for visitors to reach out to me directly.
+   - **Student Management System**: Manages student records like grades and schedules.
+   - **Book Management Application**: Built with Python and Django for book categorization and inventory.
+   - **Personal Website**: Demonstrates web development skills.
+3. **Contact**: Form for reaching out directly.
 
 ## Technologies Used
 - HTML, CSS, JavaScript
-- Python, Django (for certain projects)
+- Python, Django
 - Font Awesome for icons
 
-## Getting Started
-To run this project locally:
+## Installation
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Tiger2605/Portofolio.git
+
+![About Me](assets/about-me.png)
+![Projects](assets/projects.png)
+![Project](assets/Contact.png)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
