@@ -19,10 +19,12 @@ Welcome to my personal portfolio website, where I showcase my web development sk
 1. Clone the repository:
    ```bash
    git clone https://github.com/Tiger2605/Portofolio.git
+2. Open 'index.html' in a browser
 
+## Screenshots
 ![About Me](assets/about-me.png)
 ![Projects](assets/projects.png)
-![Project](assets/Contact.png)
+![Project](assets/contact.png)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
