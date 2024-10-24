@@ -24,7 +24,7 @@ Welcome to my personal portfolio website, where I showcase my web development sk
 ## Screenshots
 ![About Me](assets/about-me.png)
 ![Projects](assets/projects.png)
-![Project](assets/contact.png)
+![Contact](assets/contact.png)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
